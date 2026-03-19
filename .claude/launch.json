@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "browse-server",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "BROWSE_PORT=9400 bun run browse/src/server.ts"],
+      "port": 9400
+    }
+  ]
+}
